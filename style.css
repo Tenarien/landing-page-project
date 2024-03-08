@@ -38,7 +38,21 @@ a {
     flex-direction: column;
 }
 
+h1 {
+    text-align: center;
+}
+
 .illustrations {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-grow: 0;
 }
+
+.image {
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    inline-size: 150px;
+    text-align: center;
+}
+
