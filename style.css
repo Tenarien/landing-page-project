@@ -40,4 +40,5 @@ a {
 
 .illustrations {
     display: flex;
+    justify-content: space-around;
 }
