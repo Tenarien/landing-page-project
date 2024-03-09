@@ -34,6 +34,10 @@ img {
     margin-right: 300px;
 }
 
+.link-header {
+    color:#E5E7EB;
+}
+
 .quote {
     background-color: #E5E7EB;
     display: flex;
@@ -63,7 +67,7 @@ ul {
 
 li {
     list-style-type: none;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 
 a {
