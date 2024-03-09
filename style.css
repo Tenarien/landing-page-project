@@ -39,6 +39,7 @@ body {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+    width: 40%;
     
 }
 
@@ -46,6 +47,8 @@ body {
     align-self: flex-end;
     font-size: 40px;
     font-weight: bold;
+    margin-right: 300px;
+    margin-top: 0px;
 
 }
 
@@ -80,11 +83,15 @@ a {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    width: 50%;
+    margin-bottom: 0px;
 }
 
 .secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    width: 70%;
+    margin-top: 0px;
 }
 
 .content {
