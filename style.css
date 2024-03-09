@@ -3,11 +3,12 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    font-family: Roboto, sans-serif;
 }
 
 .body {
     flex: 1;
-    align-self: center;
+    
 }
 
 .header {
@@ -20,6 +21,32 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: 300px;
+}
+
+.links {
+    margin-right: 300px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    
+}
+
+.quote-sign {
+    align-self: flex-end;
+    font-size: 40px;
+    font-weight: bold;
+
 }
 
 ul {
@@ -38,6 +65,15 @@ a {
 .hero {
     background-color: #1F2937;
     display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    margin-left: 300px;
+}
+
+.hero-img {
+    margin-right: 300px;
 }
 
 .main-text {
