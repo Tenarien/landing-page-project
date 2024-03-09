@@ -6,6 +6,12 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+img {
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
 .body {
     flex: 1;
     
@@ -78,7 +84,7 @@ a {
 .hero-img {
     margin-right: 300px;
     align-self: center;
-    border-radius: 10px;
+    border-style: none;
 }
 
 .main-text {
